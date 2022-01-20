@@ -1,0 +1,20 @@
+.price_section{
+    background: #F7F7F7;
+    padding: 20px;
+}
+.price_details{
+    position: absolute;
+width: 300px;
+height: 350px;
+left: 150px;
+/* top: 3851px; */
+
+background: #ECF3FB !important;
+border-radius: 10px;
+transition: 1s;
+}
+.price_details:hover{
+    background: #1521CF !important;
+    transform: scale(1.2);
+    z-index: 2;
+}

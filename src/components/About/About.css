@@ -1,0 +1,63 @@
+/* .about{
+    position: absolute;
+width: 100px;
+height: 33px;
+left: 1209px;
+top: 1315px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+} */
+.about_section{
+    background: #F7F7F7;
+    margin-top: 50px !important;
+    padding: 40px;
+}
+.about-container{
+    margin-top: 4rem !important;
+   
+}
+.about {
+  color: #1521cf;
+  margin-top: 3rem !important;
+}
+.button_about {
+  background-color: #1521cf;
+}
+/* .icons{
+    color: #1521cf;
+    width: 40px;
+} */
+.group {
+  position: absolute;
+  width: 432px;
+  height: 498px;
+  left: 582px;
+  top: 1231px;
+  background: rgba(21, 33, 207, 0.14) !important;
+}
+.girl {
+  position: absolute;
+  width: 432px;
+  height: 498px;
+  left: 222px;
+  top: 1399px;
+
+  background: rgba(21, 33, 207, 0.14) !important;
+}
+.awords{
+   top: 30px; 
+  background-color: #1521cf !important;
+  color: #fff;
+}
+.accounts {
+  margin: 230px;
+  right: 5px;
+  margin-bottom: 50px !important;
+  background-color: #1521cf !important;
+  color: #fff;
+  
+}

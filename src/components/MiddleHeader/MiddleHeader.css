@@ -1,0 +1,54 @@
+.background_image {
+  width: 100%;
+  height: 100vh;
+  background: url(../../images/thoughts-catalog.jfif);
+  background-size: cover;
+  
+}
+.header_section {
+  position: absolute;
+  width: 215px;
+  height: 33px;
+  left: 129px;
+  top: 340px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+}
+.welcome {
+  color: #1521cf;
+  font-size: 26px;
+}
+.Finances{
+    color: #1521cf;
+}
+.money{
+position: absolute;
+width: 900px;
+height: 160px;
+/* left: 512px; */
+top: 900px;
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.19);
+border-radius: 5px;
+
+
+}
+.card{
+text-align: center;
+  
+}
+.card:hover{
+  background: #1521cf;
+  color: #fff;
+
+ 
+}
+.icons_img{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
