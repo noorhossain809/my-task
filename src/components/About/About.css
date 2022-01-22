@@ -12,17 +12,20 @@ font-size: 22px;
 line-height: 33px;
 } */
 .about_section{
+  
     background: #F7F7F7;
     margin-top: 50px !important;
     padding: 40px;
+    margin-top: 150px !important;
 }
 .about-container{
     margin-top: 4rem !important;
-   
+    
 }
 .about {
   color: #1521cf;
-  margin-top: 3rem !important;
+  
+  /* margin-top: 1rem !important; */
 }
 .button_about {
   background-color: #1521cf;
@@ -38,6 +41,7 @@ line-height: 33px;
   left: 582px;
   top: 1231px;
   background: rgba(21, 33, 207, 0.14) !important;
+  
 }
 .girl {
   position: absolute;
@@ -45,18 +49,18 @@ line-height: 33px;
   height: 498px;
   left: 222px;
   top: 1399px;
-
+  
   background: rgba(21, 33, 207, 0.14) !important;
 }
 .awords{
-   top: 30px; 
+   bottom: 120px; 
   background-color: #1521cf !important;
   color: #fff;
 }
 .accounts {
-  margin: 230px;
-  right: 5px;
-  margin-bottom: 50px !important;
+  top: 100px;
+  right: 150px;
+  /* margin-bottom: 50px !important; */
   background-color: #1521cf !important;
   color: #fff;
   

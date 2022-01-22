@@ -1,0 +1,73 @@
+.check_description{
+position: absolute;
+width: 764px;
+height: 813px;
+left: 277px;
+top: 164px;
+
+background: #F7F7F7;
+}
+.lock{
+    position: absolute;
+width: 584px;
+height: 749px;
+left: 1012px;
+top: 196px;
+}
+.line{
+    position: absolute;
+width: 499px;
+height: 0px;
+left: 72px;
+top: 234px;
+
+border: 1px solid #D7D7D7;
+}
+.id{
+position: absolute;
+width: 87px;
+height: 23px;
+top: 20px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: #D7D7D7;
+}
+.line2{
+    position: absolute;
+    width: 499px;
+    height: 0px;
+    left: 72px;
+    top: 400px;
+    
+    border: 1px solid #D7D7D7;
+}
+.Passcode{
+    position: absolute;
+width: 87px;
+height: 23px;
+top: 20px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+color: #D7D7D7;
+}
+.button_checks{
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    top: 500px;
+    left: 55px;
+    
+    background: #1521CF;
+    border-radius: 64px !important;
+    
+}

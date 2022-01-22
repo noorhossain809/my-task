@@ -1,6 +1,8 @@
 .price_section{
     background: #F7F7F7;
     padding: 20px;
+    text-align: center;
+   
 }
 .price_details{
     position: absolute;
@@ -17,4 +19,7 @@ transition: 1s;
     background: #1521CF !important;
     transform: scale(1.2);
     z-index: 2;
+}
+.plan{
+    color: #1521CF;
 }

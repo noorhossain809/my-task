@@ -11,10 +11,10 @@ const Services = () => {
         </h4>
         <h2 className="mt-3">
           <strong>
-            Entirely Providing The Best{" "}
-            <span className="welcome">
-              <strong>Services</strong>
-            </span>
+            Entirely Providing The Best
+            
+              Services
+            
           </strong>
         </h2>
         <p className="description mt-3 mb-5">
@@ -27,7 +27,7 @@ const Services = () => {
             
           <Card className="service_details">
             <Card.Body>
-            <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/60/000000/external-mobile-banking-ecommerce-vitaliy-gorbachev-lineal-vitaly-gorbachev.png" className="mt-5"/>
+            <img src="https://img.icons8.com/external-vitaliy-gorbachev-blue-vitaly-gorbachev/60/000000/external-mobile-banking-ecommerce-vitaliy-gorbachev-blue-vitaly-gorbachev.png" className="mt-5"/>
               <Card.Title className="mt-3">Mobile Banking</Card.Title>
 
               <p className="description">
@@ -38,7 +38,7 @@ const Services = () => {
           </Card>
           <Card className="service_details">
             <Card.Body>
-            <img src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/000000/external-loan-economic-crisis-wanicon-lineal-wanicon.png" className="mt-5"/>
+            <img src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-loan-economic-crisis-wanicon-lineal-color-wanicon.png" className="mt-5"/>
               <Card.Title className="mt-3">Home Loan</Card.Title>
 
               <p className="description">
@@ -48,7 +48,7 @@ const Services = () => {
           </Card>
           <Card className="service_details">
             <Card.Body>
-            <img src="https://img.icons8.com/ios-glyphs/60/000000/synchronize.png" className="mt-5"/>
+            <img src="https://img.icons8.com/stickers/64/000000/synchronize.png" className="mt-5"/>
               <Card.Title className="mt-3">Money Exchange</Card.Title>
 
               <p className="description">
@@ -61,7 +61,7 @@ const Services = () => {
         <div className="d-flex gap-5 mt-5">
         <Card className="service_details">
             <Card.Body>
-            <img src="https://img.icons8.com/pastel-glyph/64/000000/bank-card-back-side.png" className="mt-5"/>
+            <img src="https://img.icons8.com/nolan/64/bank-card-back-side.png" className="mt-5"/>
               <Card.Title className="mt-3">Your Master Card</Card.Title>
 
               <p className="description">
@@ -71,7 +71,7 @@ const Services = () => {
           </Card>
           <Card className="service_details">
             <Card.Body>
-            <img src="https://img.icons8.com/dotty/80/000000/business-card-scanner.png" className="mt-5"/>
+            <img src="https://img.icons8.com/dusk/64/000000/mobile-payment.png" className="mt-5"/>
               <Card.Title className="mt-3">Online Business</Card.Title>
 
               <p className="description">

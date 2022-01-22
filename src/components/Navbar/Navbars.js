@@ -1,22 +1,24 @@
 import React from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import './Navbars.css'
+import logo from '../../images/logo.png'
 
 const Navbars = () => {
   return (
-    <div className="bg-light">
+    <div className="">
       <Navbar >
         <Container>
-          <img src="" alt="" />
+          <img src={logo} alt="" className="img-fluid"/>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="m-auto gap-4 align-items-center justify-content-center ">
-              <a className="links" href=""><strong>Home</strong></a>
-              <a className="links" href=""><strong>Loons</strong></a>
-              <a className="links" href=""><strong>About us</strong></a>
-              <a className="links" href=""><strong>Services</strong></a>
-              <a className="links" href=""><strong>Pages</strong></a>
-              <a className="links" href=""><strong>Blog</strong></a>
+              <Link to="/home" className="links" ><strong>Home</strong></Link>
+              <Link to="/loans" className="links" ><strong>Loans</strong></Link>
+              <Link to="/about" className="links" ><strong>About us</strong></Link>
+              <Link to="/service" className="links" ><strong>Services</strong></Link>
+              <Link to="/page" className="links" ><strong>Pages</strong></Link>
+              <Link to="/blog" className="links" ><strong>Blog</strong></Link>
             </Nav>
             <Nav>
             <Button className="button">Apply now</Button>

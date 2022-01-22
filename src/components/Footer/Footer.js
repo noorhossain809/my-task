@@ -5,58 +5,21 @@ import { FaFacebookF } from 'react-icons/fa';
 import ApplePlayStore from '../svg/ApplePlayStore';
 import GooglePlayStore from '../svg/GooglePlayStore';
 import './Footer.css'
+import logo from '../../images/logo.png'
 
 const Footer = () => {
   return (
-    <div className="footer__component py-3 mt-5">
+    <div className="footer__component py-3">
       <Container>
         <div className="footer_main py-5">
           <Row>
             <Col md={3}>
-              <div className="download-icons p-2">
-                <h5 className="mb-3"> Download </h5>
-                <GooglePlayStore />
-                <br />
-                <ApplePlayStore />
-              </div>
-            </Col>
-            <Col md={3}>
-              <div className="footer-menu p-2">
-                <h5 className="mb-3"> Menu </h5>
-                <ul className="list-unstyled">
-                  <li>
-                    <a className="footer-menu" href="#privacy"> Privacy Policy </a>
-                  </li>
-                  <li>
-                    <a className="footer-menu" href="#cookies"> Cookie Policy </a>
-                  </li>
-                  <li>
-                    <a className="footer-menu" href="#purchasing"> Purchasing Policy </a>
-                  </li>
-                  <li>
-                    <a className="footer-menu" href="#terms"> Terms &amp; Conditions </a>
-                  </li>
-                  <li>
-                    <a className="footer-menu" href="#career"> Career </a>
-                  </li>
-                </ul>
-              </div>
-            </Col>
-            <Col md={3}>
-              <div className="p-2">
-                <h5 className="mb-3"> Contact Us </h5>
-                <p>
-                  House #__, Road #__,
-                  <br />
-                  Dhanmondi, Dhaka-____.
-                </p>
-                <p>Email: support@fvalley.com.bd</p>
-                <p>Contact no: +8801711111111</p>
-              </div>
-            </Col>
-            <Col md={3}>
-              <div className="social-icons float-md-end p-2">
-                <h5 className="mb-3">Get in Touch</h5>
+               <div className="social-icons float-md-end p-2">
+                 <img src={logo} alt="" className="p-2"/>
+                 <p>264 Manon road F1 456 caron <br />Town</p>
+                <p>Office No 3457</p>
+                <p>info@salem.com</p>
+                <p>1-800-356-6522</p>
                 <a
                   href="https://facebook.com"
                   className="social_bg facebook-bg"
@@ -73,12 +36,49 @@ const Footer = () => {
                   <AiOutlineYoutube />
                 </a>
               </div>
+
+              
+            </Col>
+            <Col md={3}>
+              <div className="footer-menu p-2">
+                <h5 className="mb-3"> About us </h5>
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>Team</p>
+                <p>contact us</p>
+              </div>
+            </Col>
+            <Col md={3}>
+              <div className="p-2">
+                <h5 className="mb-3"> Our Services </h5>
+                <p>
+                  Internet Banking
+                 
+                </p>
+                <p> Mobile banking</p>
+                <p>Alista Bank Security</p>
+                <p>Rates And Charges</p>
+              </div>
+            </Col>
+            <Col md={3}>
+            <div className="download-icons p-2">
+                <h5 className="mb-3 text-uppercase"> Download Our App</h5>
+                <p>Tackle your Banking with our Mobile 
+                  <br />
+                app and Make Your Life Easy.</p>
+                
+              <div className="d-flex gap-2">
+              <GooglePlayStore />
+                
+                <ApplePlayStore />
+              </div>
+              </div>
             </Col>
           </Row>
         </div>
         <hr />
         <p className="text-center pt-3">
-          &copy; 2022 fresh-valley.com Limited. All rights reserved.
+          &copy; 2022 salem.com Limited. All rights reserved.
         </p>
       </Container>
     </div>

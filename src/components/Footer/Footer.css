@@ -1,12 +1,16 @@
 .footer__component {
     background-color: #1521CF;
     color: #9ca9be;
-  
+   margin-top: 150px;
     
   }
   
     .footer-menu {
       color: #9ca9be;
+    }
+    .footer_main img{
+      height: 60px;
+      top: 10px;
     }
 
     

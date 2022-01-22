@@ -12,12 +12,12 @@ const MiddleHeader = () => {
           <br />
           Your <span className="Finances">Finances</span>
         </h2>
-        <div className="d-flex gap-5">
-          <div className="col-md-6">
-            <Button className="button">Create account</Button>
+        <div className="d-flex gap-5 ">
+          <div className="col-md-6 ">
+            <Button className="button gap-2">Create account</Button>
           </div>
           <div className="col-md-6">
-            <Button className="button">Create account</Button>
+            <Button className="button gap-2">Check Balance</Button>
           </div>
         </div>
 
